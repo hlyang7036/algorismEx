@@ -2,15 +2,22 @@ package algorism_10;
 
 public class Algorism_10 {
 	
-	/* ÀÔ·ÂµÈ nÀÇ °¹¼ö¸¸Å­ nÇà°ú n¿­ÀÇ ÇüÅÂ·Î ¿¬¼ÓµÇ´Â ¼ö¸¦ Ãâ·ÂÇÏ½Ã¿À */
+	/*
+	 * ì…ë ¥ëœ në§Œí¼ ní–‰ nì—´ì˜ í˜•íƒœë¡œ ì—°ì†ë˜ëŠ” ìˆ«ì ì‚¬ê°í˜•ì„ ì¶œë ¥í•˜ì‹œì˜¤
+	 * ë³´ê¸°
+	 * 1  2  3  4
+	 * 5  6  7  8
+	 * 9  10 11 12
+	 * 13 14 15 16
+	 * */
 	
 	public static void main(String[] args) {
 		
 		int inputNum = 5;
 		
 		int count = 1;
-		for (int j = 1; j <=4; j++) {	// ex Çà 2°³ = 
-			for (int i = 1; i <=5 ; i++) {	// ex ¿­ 5°³ ¤Ó¤Ó¤Ó¤Ó¤Ó
+		for (int j = 1; j <=4; j++) {	// ex 2í–‰ =
+			for (int i = 1; i <=5 ; i++) {	// ex 5ì—´ ã…£ã…£ã…£ã…£ã…£
 				System.out.print(i);
 				System.out.print(j);
 				System.out.printf("%4d", count);

@@ -8,9 +8,9 @@ public class Algorism_9 {
 		int accSum = 0;
 		
 		while (inputNum>0) {
-			accSum += inputNum%10;	// inputNumÀÇ ³ª¸ÓÁö °ªÀ» accSum¿¡ ÀúÀåÈÄ ´õÇÔ
-			inputNum /=10;			// inputNumÀ» 10À¸·Î ³ª´©¸é ¼Ò¼öÁ¡Àº »ç¶óÁ®¼­ 124°¡ µÇ°í 124¸¦ inputNum¿¡ ÀúÀåÇÔ
-			System.out.println(accSum);
+			accSum += inputNum%10;	// inputNum ì…ë ¥ëœ ìˆ˜ë¥¼ 10ìœ¼ë¡œ ë‚˜ëˆˆ ë‚˜ë¨¸ì§€ë¥¼ accSumìœ¼ë¡œ ì €ì¥
+			inputNum /=10;			// inputNum ì…ë ¥ëœ ìˆ˜ë¥¼ 10ìœ¼ë¡œ ë‚˜ëˆ„ì–´ ì†Œìˆ˜ì ì´ ë˜ëŠ” ê°€ì¥ ë’· ìˆ˜ë¥¼ ë²„ë¦¼ 
+			System.out.println(accSum);	// intëŠ” ì •ìˆ˜ë§Œì„ í‘œí˜„ê°€ëŠ¥í•œ ìë£Œí˜•ì´ë‹¤
 		}
 		System.out.println(accSum);
 		
